@@ -14,7 +14,7 @@ namespace devt_api.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value5" };
+            return new string[] { "value1", "value9" };
         }
 
         // GET api/values/5
